@@ -1,0 +1,11 @@
+torch
+torchvision
+pillow
+matplotlib
+tensorboard
+tensorboardX
+lmdb
+tfrecord
+addict
+pyaml
+opencv-python
