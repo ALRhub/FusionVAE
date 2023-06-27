@@ -2,8 +2,7 @@
 
 This is the official code for the paper "FusionVAE: A Deep Hierarchical Variational Autoencoder for RGB Image Fusion" by Fabian Duffhauss et al. accepted to ECCV 2022. The code allows the users to reproduce and extend the results reported in the study. Please cite the paper when reporting, reproducing or extending the results.
 
-[[Arxiv](https://arxiv.org/abs/2208.01172)]
-
+[[arXiv](https://arxiv.org/abs/2208.01172)][[ECCV'22](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990666.pdf)]
 
 ## Purpose of the project
 
@@ -113,16 +112,17 @@ python train.py --dataset tless --batch_size 32 --epochs 500 --num_channels_enc 
 ```
 
 
+
 ## Citation
+
 If you use this work please cite
 ```
 @InProceedings{Duffhauss_2022_ECCV,
-    author    = {Duffhauss, Fabian and Vien, Ngo Anh and Ziesche, Hanna and Neumann, Gerhard},
-    title     = {FusionVAE: A Deep Hierarchical Variational Autoencoder for RGB Image Fusion},
-    booktitle = {European Conference on Computer Vision (ECCV)},
-    year      = {2022},
+    title        = {{FusionVAE}: A Deep Hierarchical Variational Autoencoder for {RGB} Image Fusion},
+    author       = {Duffhauss, Fabian and Vien, Ngo Anh and Ziesche, Hanna and Neumann, Gerhard},
+    booktitle    = {Proceedings of the 17th European Conference on Computer Vision (ECCV)},
+    pages        = {674--691},
+    year         = {2022},
+    organization = {Springer Nature Switzerland}
 }
 ```
-
-
-
